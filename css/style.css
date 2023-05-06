@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(90deg, rgb(27, 18, 29) 0%, rgb(18, 15, 47) 50%, rgb(27, 18, 29) 100%);
+}
+.container h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
+  position: relative;
+  line-height: 1;
+  z-index: 5;
+}
+.container .col {
+  margin-left: 100px;
+  width: 600px;
+  height: 800px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+}
+.container .first {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 3px solid #cc00ff;
+  position: relative;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 18px;
+  display: block;
+  font-family: var(--hff);
+  color: #ddd;
+}
+.container .col p {
+  color: #9ba0b8;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 25px;
+}
+.container .col h3 {
+  font-size: 30px;
+  color: #dddddd;
+  font-weight: 300;
+  padding-top: 20px;
+}
+.container .col h3:hover {
+  color: #cc00ff;
+  transition: 0.3s all linear;
+}
+.container .col img {
+  width: 500px;
+  height: 500px;
+  padding-top: 20px;
+  border-radius: 6%;
+}
+.container .col1 {
+  color: #9ba0b8;
+  padding-top: 40px;
+}
+.container .col1:hover {
+  color: #cc00ff;
+  transition: 0.3s all linear;
+}
+.container .nav {
+  margin-left: 750px;
+  margin-top: -795px;
+  width: 600px;
+  height: 250px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+}
+.container .second {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 3px solid #cc00ff;
+  position: relative;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 18px;
+  display: block;
+  font-family: var(--hff);
+  color: #ddd;
+}
+.container .nav p {
+  color: #9ba0b8;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.container .nav h3 {
+  font-size: 30px;
+  color: #dddddd;
+  font-weight: 300;
+  padding-top: 20px;
+}
+.container .nav h3:hover {
+  color: #cc00ff;
+  transition: 0.3s all linear;
+}
+.container .col2 {
+  color: #9ba0b8;
+  padding-top: 20px;
+}
+.container .col2:hover {
+  color: #cc00ff;
+  transition: 0.3s all linear;
+}
+.container .navlogo {
+  margin-top: 40px;
+  margin-left: 750px;
+  width: 600px;
+  height: 250px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+}
+.container .third {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 3px solid #cc00ff;
+  position: relative;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 18px;
+  display: block;
+  font-family: var(--hff);
+  color: #ddd;
+}
+.container .navlogo p {
+  color: #9ba0b8;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.container .navlogo h3 {
+  font-size: 30px;
+  color: #dddddd;
+  font-weight: 300;
+  padding-top: 20px;
+}
+.container .navlogo h3:hover {
+  color: #cc00ff;
+  transition: 0.3s all linear;
+}
+.container .col3 {
+  color: #9ba0b8;
+  padding-top: 20px;
+}
+.container .col3:hover {
+  color: #cc00ff;
+  transition: 0.3s all linear;
+}
+.container .navbar {
+  margin-top: 40px;
+  margin-left: 750px;
+  width: 600px;
+  height: 215px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+}
+.container .four {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 3px solid #cc00ff;
+  position: relative;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 18px;
+  display: block;
+  font-family: var(--hff);
+  color: #ddd;
+}
+.container .navbar p {
+  color: #9ba0b8;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.container .col4 {
+  color: #9ba0b8;
+  padding-top: 10px;
+}
+.container .col4:hover {
+  color: #cc00ff;
+  transition: 0.3s all linear;
+}
+.container .sol {
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 600px;
+  height: 70px;
+  line-height: 70px;
+  border: 3px solid #cc00ff;
+  border-radius: 10px;
+  text-align: center;
+  color: #dddddd;
+}
+.container .p {
+  margin-top: -55px;
+  margin-left: 750px;
+  width: 600px;
+  height: 60px;
+  font-size: 18px;
+  color: #9ba0b8;
+}
+
+/*# sourceMappingURL=style.css.map */
